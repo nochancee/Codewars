@@ -14,5 +14,5 @@ def tribonacci(signature, n):
             number3 = signature[i-2]
             next_tribonacci_nubmer = number1+number2+number3
             signature.append(next_tribonacci_nubmer)
-            i +=1
+            i +=11
     print(signature)
